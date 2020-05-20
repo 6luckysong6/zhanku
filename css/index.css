@@ -92,6 +92,8 @@ nav img {
 }
 
 .find:hover {
+  position: relative;
+  z-index: 1;
   overflow: visible;
 }
 
@@ -187,6 +189,8 @@ nav img {
 .course:hover,
 .protection:hover,
 .more:hover {
+  position: relative;
+  z-index: 1;
   overflow: visible;
 }
 
@@ -289,6 +293,7 @@ nav img {
 }
 .lunbo-main{
   position: relative;
+  z-index: -1;
   width: 1380px;
   height: 350px;
   background-color: violet;
@@ -380,4 +385,72 @@ nav img {
   display: flex;
   justify-content: space-between;
   margin: auto;
+}
+.img a{
+  position: relative;
+  transition: .5s;
+}
+.img a:hover::before{
+  content: '';
+  z-index: 1;
+  position: absolute;
+  width: 260px;
+  height: 195px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.img a{
+  display: block;
+  width: 260px;
+  height: 195px;
+}
+.img img{
+  border-radius: 4px 4px 0 0;
+}
+.info{
+  padding: 11px 16px 13px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.info .p a:nth-of-type(1){
+  font-size: 14px;
+  color: #333333;
+}
+.info .p a:nth-of-type(2){
+  float: right;
+  color: #bbbbbb;
+}
+.info .p a:nth-of-type(1):hover{
+  color: #ff4a3b;
+}
+.info>p{
+  margin-bottom: 17px;
+}
+.info i{
+  margin-right: 5px;
+}
+.info>span{
+  color: #bbbbbb;
+  margin-right: 10px;
+  cursor: default;
+}
+.item{
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  border-top: 1px solid #eaeaea;
+  padding: 0 16px;
+  font-size: 12px;
+}
+.item-user img{
+  width: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.item-user a:hover{
+  color: #ff4a3b;
+}
+.item .time{
+  float: right;
+  color: #bbbbbb;
 }
