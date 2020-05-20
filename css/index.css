@@ -36,21 +36,26 @@ nav img {
   justify-content: space-between;
   align-items: center;
 }
-.menu i{
+
+.menu i {
   font-size: 24px;
 }
-.menu li{
+
+.menu>li {
   height: 56px;
   line-height: 56px;
   text-align: center;
 }
-.menu li:hover{
-  background-color: rgb(40,40,40);
+
+.menu>li:hover {
+  background-color: rgb(40, 40, 40);
 }
-.menu li:hover a{
+
+.menu>li:hover>a {
   color: #ffe300;
 }
-.menu a {
+
+.menu>li>a {
   display: inline-block;
   padding: 0 24px;
   box-sizing: border-box;
@@ -68,6 +73,184 @@ nav img {
   top: 20px;
 }
 
+.menu>li {
+  position: relative;
+}
+
+/* 发现二级导航 */
+.find {
+  overflow: hidden;
+}
+
+.nav-find {
+  position: absolute;
+  width: 664px;
+  height: 144px;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .2);
+  background-color: white;
+}
+
+.find:hover {
+  overflow: visible;
+}
+
+.discover-box-list {
+  font-size: 0;
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 11px 17px 17px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.discover-box-list>li {
+  position: relative;
+  width: 90px;
+  height: 28px;
+  line-height: 28px;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.discover-box-list>li a {
+  display: inline-block;
+  min-width: 42px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 7px;
+  text-align: center;
+  position: relative;
+  margin: 0 6px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.discover-box-list>li a:hover {
+  background-color: yellow;
+}
+
+.discover-box-list>li i {
+  position: absolute;
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: #ddd;
+  top: 5px;
+  right: 0;
+}
+
+.discover-check-all {
+  width: 664px;
+  height: 51px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #eaeaea;
+}
+
+.discover-check-all>li {
+  height: 50px;
+  margin-right: 40px;
+
+}
+
+.discover-check-all>li a {
+  color: #444444;
+}
+
+.discover-check-all>li>a:hover {
+  color: #d36f16;
+}
+
+
+
+/* 职位 活动 素材 课程二级导航 */
+.position,
+.active,
+.material,
+.course,
+.protection,
+.more {
+  position: relative;
+  overflow: hidden;
+}
+
+.position:hover,
+.active:hover,
+.material:hover,
+.course:hover,
+.protection:hover,
+.more:hover {
+  overflow: visible;
+}
+
+.nav-position,
+.nav-active,
+.nav-material,
+.nav-course,
+.nav-protection,
+.nav-more {
+  position: absolute;
+  padding: 6px 0;
+  box-sizing: border-box;
+  width: 152px;
+  text-align: left;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .2);
+  background-color: white;
+}
+
+.nav-position li,
+.nav-active li,
+.nav-material li,
+.nav-course li,
+.nav-protection li,
+.nav-more li {
+  height: 44px;
+}
+
+.nav-position li a,
+.nav-active li a,
+.nav-material li a ,
+.nav-course li a,
+.nav-protection li a,
+.nav-more li a{
+  display: inline-block;
+  width: 152px;
+  box-sizing: border-box;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 20px;
+}
+
+.nav-position li a:hover,
+.nav-active li a:hover,
+.nav-material li a:hover ,
+.nav-course li a:hover,
+.nav-protection li a:hover,
+.nav-more li a:hover{
+  background-color: yellow;
+}
+.nav-more li:nth-of-type(2){
+  position: relative;
+}
+.nav-more sup{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff4a3b;
+  margin: 0 0 2px 3px;
+  position: absolute;
+  top: 20px;
+}
+/* ==================================== */
 .user {
   /* width: 200px; */
   height: 56px;
@@ -82,14 +265,17 @@ nav img {
   line-height: 56px;
   text-align: center;
 }
+
 .user li:nth-of-type(1):hover,
-.user li:nth-of-type(2):hover{
-  background-color: rgb(40,40,40);
+.user li:nth-of-type(2):hover {
+  background-color: rgb(40, 40, 40);
 }
+
 .user li:nth-of-type(1):hover a,
-.user li:nth-of-type(2):hover a{
+.user li:nth-of-type(2):hover a {
   color: #ffe300;
 }
+
 .user i {
   font-size: 24px;
 }
