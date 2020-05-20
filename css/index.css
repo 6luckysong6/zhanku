@@ -213,6 +213,7 @@ nav img {
 .nav-protection li,
 .nav-more li {
   height: 44px;
+  line-height: 44px;
 }
 
 .nav-position li a,
@@ -278,4 +279,105 @@ nav img {
 
 .user i {
   font-size: 24px;
+}
+
+
+/* 轮播部分 */
+.lunbo{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.lunbo-main{
+  position: relative;
+  width: 1380px;
+  height: 350px;
+  background-color: violet;
+  margin: auto;
+  cursor: pointer;
+}
+.lunbo-main a:nth-of-type(1){
+  position: absolute;
+  top: 50%; 
+  margin-left: 25px;
+  transform: translateY(-50%);
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: none;
+}
+.lunbo-main a:nth-of-type(2){
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: 25px;
+  transform: translateY(-50%);
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: none;
+}
+.lunbo-main:hover a{
+  display: block;
+}
+.lunbo-main a:hover{
+  color: #ffe300;
+}
+.adv-top{
+  width: 1380px;
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.adv-top li{
+  width: 260px;
+  height: 208px;
+}
+.adv-top li img{
+  height: 208px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+/* 导航 */
+.top-hull{
+  position: sticky;
+  top: 0;
+}
+.top-hull ul{
+  width: 1380px;
+  height: 56px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-hull li{
+  padding: 0px 30px;
+}
+.top-hull a{
+  display: block;
+  height: 56px;
+  line-height: 56px;
+  box-sizing: border-box;
+}
+.top-hull a:active{
+  border-bottom: 1px solid #000;
+}
+/* ---------- */
+.work-list{
+  width: 1380px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
