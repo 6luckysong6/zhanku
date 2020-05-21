@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  color: #282828;
+  font-size: 14px;
+  font-family: 微软雅黑;
+}
+.header {
+  width: 100%;
+  height: 56px;
+  background-color: rgb(255, 227, 0);
+}
+.header_main {
+  position: relative;
+  width: 1379px;
+  height: 100%;
+  margin: auto;
+}
+.menu_box {
+  width: 1379px;
+  height: 100%;
+}
+.menu_content > ul {
+  display: inline-block;
+ 
+  height: 56px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  line-height: 56px;
+}
+.menu_content > ul > li {
+  text-align: left;
+  float: left;
+}
+.menu_content > ul > li > a {
+  display: inline-block;
+  padding: 0 24px;
+  color: #282828;
+}
+.menu_more {
+  width: 60px;
+  height: 56px;
+  text-align: center !important;
+  color: #000;
+}
+
+.icon-gengduosangedian {
+  font-size: 24px !important;
+  color: #282828;
+}
+.more_back {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff4a3b;
+  margin: 0 0 2px 3px;
+  position: absolute;
+  top: 20px;
+}
+.head_logo {
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  background-image: url("//static.zcool.cn/git_z/z/common/images/svg/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.icon-sousuo {
+  width: 60px;
+  height: 56px;
+  display: inline-block;
+  top: 0;
+  position: absolute;
+  margin-left: 1127px;
+  font-size: 25px !important;
+  text-align: center;
+  line-height: 56px;
+}
+.icon-sousuo:hover {
+  background-color: #282828;
+  color: #ffe300;
+}
+.header_right {
+  position: absolute;
+  width: 192px;
+  height: 56px;
+  margin-left: 1187px;
+  top: 0;
+
+  line-height: 56px;
+}
+.icon-yunshangchuan {
+  width: 62px;
+  height: 56px;
+  font-size: 25px !important;
+  display: inline-block;
+  text-align: center;
+}
+.icon-yunshangchuan:hover {
+  background-color: #282828;
+  color: #ffe300;
+}
+.header_right > a {
+  margin-left: 20px;
+  padding: 0;
+  text-decoration: none;
+  color: #282828;
+}
+.header_right > a > i {
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  background: #444;
+  margin-left: 20px;
+}
+
+.nav-find {
+    position: absolute;
+    width: 664px;
+    height: 144px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .2);
+    background-color: white;
+  }
+  /* .find{
+      position: relative;
+      overflow: hidden;
+  }
+  
+  .find:hover{
+      overflow: visible;
+  } */
+  .find .nav-find{
+      display: none;
+  }
+  .find:hover .nav-find {
+      display: block;
+  }
+  
+  .discover-box-list {
+    font-size: 0;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 11px 17px 17px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .discover-box-list>li {
+    position: relative;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 4px;
+    text-align: center;
+  }
+  
+  .discover-box-list>li a {
+    display: inline-block;
+    min-width: 42px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 7px;
+    text-align: center;
+    position: relative;
+    margin: 0 6px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .discover-box-list>li a:hover {
+    background-color: yellow;
+  }
+  
+  .discover-box-list>li i {
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background: #ddd;
+    top: 5px;
+    right: 0;
+  }
+  
+  .discover-check-all {
+    width: 664px;
+    height: 51px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .discover-check-all>li {
+    height: 50px;
+    margin-right: 40px;
+  
+  }
+  
+  .discover-check-all>li a {
+    color: #444444;
+  }
+  
+  .discover-check-all>li>a:hover {
+    color: #d36f16;
+  }
+
+  /* 职位 活动 素材 课程二级导航 */
+.position,
+.active,
+.material,
+.course,
+.protection,
+.menu_more {
+  position: relative;
+  overflow: hidden;
+}
+
+.position:hover,
+.active:hover,
+.material:hover,
+.course:hover,
+.protection:hover,
+.menu_more:hover {
+  overflow: visible;
+}
+
+.nav-position,
+.nav-active,
+.nav-material,
+.nav-course,
+.nav-protection,
+.nav-more {
+  position: absolute;
+  padding: 6px 0;
+  box-sizing: border-box;
+  width: 152px;
+  text-align: left;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .2);
+  background-color: white;
+}
+
+.nav-position li,
+.nav-active li,
+.nav-material li,
+.nav-course li,
+.nav-protection li,
+.nav-more li {
+  height: 44px;
+  line-height: 44px;
+}
+
+.nav-position li a,
+.nav-active li a,
+.nav-material li a ,
+.nav-course li a,
+.nav-protection li a,
+.nav-more li a{
+  display: inline-block;
+  width: 152px;
+  box-sizing: border-box;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 20px;
+}
+
+.nav-position li a:hover,
+.nav-active li a:hover,
+.nav-material li a:hover ,
+.nav-course li a:hover,
+.nav-protection li a:hover,
+.nav-more li a:hover{
+  background-color: yellow;
+}
+.nav-more li:nth-of-type(2){
+  position: relative;
+}
+.nav-more sup{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff4a3b;
+  margin: 0 0 2px 3px;
+  position: absolute;
+  top: 20px;
+}
+/* ------------------------ */
+.top_hull{
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px solid #eee;
+    background-color: rgb(255,255,255);
+    position: sticky;
+    top: 0;
+    
+}
+.top_hull_content{
+    position: relative;
+    width: 1130px;
+    height: 56px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 56px;
+ 
+}
+.top_hull_content>li{
+    display: inline-block;
+    padding: 0 30px ;
+    color: #999;
+}
+.top_hull_content>li:hover{
+    color: #282828;
+    border-bottom: 2px solid #444;
+}
+
+.top_hull_right{
+    position: absolute;
+    right: 0;
+    color: #d36f16;
+    font-size: 14px;
+}
+.main{
+    width: 100%;
+    height: 9999px;
+    background-color: antiquewhite;
+
+}
+.main_box{
+    width: 1150px;
+    height: auto;
+}
