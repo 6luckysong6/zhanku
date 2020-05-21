@@ -12,7 +12,7 @@
 .header {
     width: 100%;
     height: 500px;
-    background-image: url(../img/home.jpg);
+    background-image: url(../img/protection/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@
 .logo {
     width: 117px;
     height: 27px;
-    background-image: url(../img/svgexport-1.png);
+    background-image: url(../img/protection/svgexport-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     transition: linear;
@@ -202,7 +202,7 @@
     height: 120px;
     margin: 0 auto;
     margin: 40px auto;
-    background-image: url(../img/1aaaaaa.png);
+    background-image: url(../img/protection/1aaaaaa.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -213,7 +213,7 @@
     height: 120px;
     margin: 0 auto;
     margin: 40px auto;
-    background-image: url(../img/2aaaaaa.png);
+    background-image: url(../img/protection/2aaaaaa.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -224,7 +224,7 @@
     height: 120px;
     margin: 0 auto;
     margin: 40px auto;
-    background-image: url(../img/3aaaaaa.png);
+    background-image: url(../img/protection/3aaaaaa.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -235,7 +235,7 @@
     height: 120px;
     margin: 0 auto;
     margin: 40px auto;
-    background-image: url(../img/4aaaaaa.png);
+    background-image: url(../img/protection/4aaaaaa.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -284,24 +284,24 @@
 }
 
 .home-1 {
-    background-image: url(../img/home-1.png);
+    background-image: url(../img/protection/home-1.png);
     background-size: cover;
 }
 
 .home-2 {
-    background-image: url(../img/home-2.png);
+    background-image: url(../img/protection/home-2.png);
     background-size: cover;
 }
 
 .home-3 {
-    background-image: url(../img/home-3.png);
+    background-image: url(../img/protection/home-3.png);
     background-size: cover;
 }
 
 .tail {
     width: 100%;
     height: 320px;
-    background-image: url(../img/home-middle.jpg);
+    background-image: url(../img/protection/home-middle.jpg);
     background-size: cover;
     margin-top: 100px;
     text-align: center;
@@ -324,4 +324,74 @@
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 3px;
+    transition: .4s linear;
+}
+
+.tail>a:nth-child(2):hover {
+    opacity: 70%;
+}
+
+.footer {
+    width: 100%;
+    height: 153px;
+    background-color: rgb(46, 49, 57);
+}
+
+.more {
+    width: 1180px;
+    height: 50px;
+    /* background-color: rgb(1, 100, 255); */
+    align-self: center;
+    margin: 0 auto;
+}
+
+.foorlogo {
+    float: left;
+    width: 280px;
+    height: 50px;
+    background-image: url(../img/protection/svgexport-10.png);
+}
+
+.float {
+    float: right;
+    width: 876px;
+    height: 17px;
+}
+
+.phone>li:nth-child(1) {
+    float: left;
+    font-size: 16px;
+    color: white;
+}
+
+.phone>li:nth-child(2) {
+    float: right;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+}
+
+.zhanku>li:nth-child(1) {
+    float: left;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+}
+
+.zhanku>a:nth-child(2) {
+    float: right;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    transition: .3s linear;
+}
+
+.phone {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.zhanku {
+    padding-top: 10px;
+}
+
+.zhanku>a:hover {
+    color: rgb(157, 162, 173);
 }
