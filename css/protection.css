@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .flex {
     display: flex;
 }
@@ -394,4 +398,62 @@
 
 .zhanku>a:hover {
     color: rgb(157, 162, 173);
+}
+
+.side {
+    width: 50px;
+    height: 157px;
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.side>a:nth-child(1) {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(238, 238, 238);
+    border-top: none;
+    background-image: url(../img/protection/站酷知产，知识产权服务平台，站酷旗下品牌-11.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 9px -5px;
+}
+
+.side>div:nth-child(2),
+.side>div:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.side>div:nth-child(2) {
+    background-image: url(../img/protection/svgexport-12.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.side>div:nth-child(3) {
+    background-image: url(../img/protection/svgexport-13.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wei::before {
+    content: '';
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    position: relative;
+    bottom: 18px;
+    left: 6px;
+    transform: rotate(45deg);
+    z-index: -1;
+    border: 1px solid rgb(238, 238, 238);
 }
