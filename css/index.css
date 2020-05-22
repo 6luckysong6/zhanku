@@ -927,7 +927,8 @@ aside a{
   display: inline-block;
   width: 50px;
   height: 50px;
+  color: #ddd;
 }
-aside:hover{
+aside a:hover{
   color: rgb(39, 36, 36);
 }
