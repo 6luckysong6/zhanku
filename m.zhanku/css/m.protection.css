@@ -1,0 +1,323 @@
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-size: 13.3333vw;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .header {
+        width: 7.5rem;
+        height: 1rem;
+        background-color: rgb(244, 82, 58);
+        justify-content: space-between;
+    }
+    
+    .header>i:nth-child(1) {
+        font-size: .6rem;
+        color: white;
+        margin: auto .2rem;
+        line-height: .6rem;
+    }
+    
+    .header>i:nth-child(3) {
+        font-size: .6rem;
+        font-weight: bold;
+        color: white;
+        margin: auto .2rem;
+    }
+    
+    .header>a:nth-child(2) {
+        display: block;
+        height: 1rem;
+        line-height: 1rem;
+        font-size: .2rem;
+        margin-top: .15rem;
+    }
+    
+    .search {
+        width: 7.5rem;
+        height: .8rem;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        font-size: .5rem;
+        background-color: rgb(250, 250, 250);
+    }
+    
+    .search-input {
+        width: 6rem;
+        height: .76rem;
+        float: left;
+        font-size: .3rem;
+        border: .02rem solid rgba(0, 0, 0, 30%);
+        margin-left: .25rem;
+        border-right: none;
+        padding-left: .2rem;
+    }
+    
+    .sear {
+        float: left;
+        width: 1rem;
+        height: .76rem;
+        background-color: white;
+        font-size: .57rem;
+        border: .02rem solid rgba(0, 0, 0, 30%);
+        border-left: none;
+        text-align: center;
+    }
+    
+    .sear>i {
+        color: rgb(244, 82, 58);
+        font-size: .6rem;
+        font-weight: bold;
+    }
+    
+    .photo {
+        width: 7.5rem;
+        height: 3.76rem;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .pir {
+        width: 22.5rem;
+        height: 3.76rem;
+        display: flex;
+        position: absolute;
+        animation: ani 20s linear infinite;
+    }
+    
+    @keyframes ani {
+        100%,
+        0%,
+        31% {
+            left: 0;
+        }
+        33.33%,
+        64% {
+            left: -7.5rem;
+        }
+        66.66%,
+        98% {
+            left: -15rem;
+        }
+    }
+    
+    .fix {
+        width: 7.5rem;
+        height: .32rem;
+        background-color: black;
+        position: absolute;
+        opacity: 50%;
+        bottom: 0;
+        font-size: .2rem;
+        text-align: center;
+    }
+    
+    .pir>img:nth-child(1) {
+        width: 7.5rem;
+        height: 3.76rem;
+    }
+    
+    .pir>img:nth-child(2) {
+        width: 7.5rem;
+        height: 3.76rem;
+    }
+    
+    .pir>img:nth-child(3) {
+        width: 7.5rem;
+        height: 3.76rem;
+    }
+    
+    .fix>span {
+        display: inline-block;
+        width: .1rem;
+        height: .1rem;
+        background-color: white;
+        border-radius: 50%;
+        z-index: 3;
+        margin-left: .2rem;
+    }
+    
+    .change {
+        text-align: center;
+    }
+    
+    .change>p:nth-child(1) {
+        font-size: .4rem;
+        padding-top: .4rem;
+        padding-bottom: .2rem;
+    }
+    
+    .change>p:nth-child(2) {
+        font-size: .3rem;
+        color: #919090;
+        padding-bottom: .4rem;
+    }
+    
+    .pirce {
+        width: 7.5rem;
+        height: 3.2rem;
+        border-top: .02rem solid rgba(0, 0, 0, 30%);
+        border-bottom: .02rem solid rgba(0, 0, 0, 30%);
+        justify-content: space-between;
+    }
+    
+    .pirc {
+        text-align: center;
+        height: 2rem;
+    }
+    
+    .pirc>li:nth-child(1) {
+        display: block;
+        width: 2.5rem;
+        height: 1rem;
+        padding-top: .15rem;
+    }
+    
+    .real {
+        height: .64rem;
+        width: .64rem;
+    }
+    
+    .pirc>li:nth-child(2) {
+        font-size: .35rem;
+    }
+    
+    .see {
+        display: block;
+        text-align: center;
+        width: 7rem;
+        height: .8rem;
+        font-size: .4rem;
+        background-color: rgb(244, 82, 58);
+        line-height: .8rem;
+        border-radius: .1rem;
+        color: white;
+        margin: 0 auto;
+        position: relative;
+        bottom: 1.2rem;
+    }
+    
+    .hot {
+        position: relative;
+        bottom: .8rem;
+        width: 7rem;
+        height: .8rem;
+        margin: 0 auto;
+        font-size: .3rem;
+        font-weight: bold;
+        line-height: .8rem;
+    }
+    
+    .four {
+        position: relative;
+        bottom: .2rem;
+        width: 7rem;
+        height: 6.2rem;
+        margin: 0 auto;
+        margin-top: -.6rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .chil {
+        width: 3.4rem;
+        height: 3rem;
+    }
+    
+    .chil>img {
+        width: 3.4rem;
+        height: 2.54rem;
+    }
+    
+    .chil>a {
+        position: relative;
+        bottom: .75rem;
+        font-size: .3rem;
+        color: black;
+    }
+    
+    .about {
+        display: block;
+        width: 7rem;
+        height: 6.9rem;
+        margin: 0 auto;
+    }
+    
+    .about>li {
+        font-size: .31rem;
+        color: #919090;
+    }
+    
+    .about>li:nth-child(3),
+    .about>li:nth-child(4) {
+        padding-top: .4rem;
+    }
+    
+    .about>li:nth-child(1) {
+        color: black;
+        font-weight: bold;
+        padding-top: .3rem;
+        padding-bottom: .2rem;
+    }
+    
+    .footer>li:nth-child(1) {
+        display: block;
+        font-size: .35rem;
+        padding-top: .3rem;
+        padding-left: .3rem;
+        padding-bottom: .1rem;
+        border-top: .01rem solid #e4e3e3;
+    }
+    
+    .se {
+        display: block;
+        text-align: center;
+        width: 7rem;
+        height: .8rem;
+        background-color: rgb(244, 82, 58);
+        line-height: .8rem;
+        border-radius: .1rem;
+        color: white;
+        margin: 0 auto;
+    }
+    
+    .se>span:nth-child(1) {
+        display: block;
+        font-size: .4rem;
+    }
+    
+    .se>span>i {
+        font-size: .42rem;
+    }
+    
+    .footer>li:nth-child(3) {
+        color: #919090;
+        font-size: .3rem;
+        padding: .3rem 0 0 0;
+    }
+    
+    .footer>li>a:nth-child(1),
+    .footer>li>a:nth-child(2) {
+        color: #919090;
+        font-size: .3rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    
+    .footer>li:nth-child(4) {
+        width: 1.5rem;
+        height: .5rem;
+        margin: 0 auto;
+        line-height: .5rem;
+        padding-bottom: .4rem;
+    }
