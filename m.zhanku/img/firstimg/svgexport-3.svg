@@ -1,0 +1,9 @@
+<svg width="1.07rem" height="0.77rem" viewBox="0 0 50 30">
+<g fill-rule="nonzero" fill="none"><path d="M0 0h50v30H0z">
+</path><ellipse fill="#FFD100" cx="16.765" cy="10.973" rx="10.98" ry="10.973"></ellipse>
+<g transform="translate(19.902 7.838)"><rect stroke="#333" stroke-width="3.158" width="20.392" height="19.595" rx="2.368"></rect>
+<rect fill="#333" x="4.706" y="4.703" width="10.98" height="3.135" rx="1.568"></rect>
+<path stroke="#333" stroke-width="3.158" stroke-linecap="round" stroke-linejoin="round" d="M.785 10.946h4.4v3.756h9.735v-3.756h4.073"></path>
+</g>
+</g>
+</svg>

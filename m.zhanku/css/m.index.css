@@ -1,0 +1,210 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: .12rem /* 12/100 */;
+}
+button{
+  border: none;
+}
+
+html{
+  font-size: 26.666666666666667vw;
+  font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+
+/* 头部 */
+header{
+  padding: 0  .15rem /* 15/100 */;
+  height: .5rem;
+  background-color: #ffd100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0;
+}
+header img{
+  width: 1rem /* 100/100 */;
+  vertical-align: middle;
+}
+.jsx{
+  font-size: .12rem;
+}
+.jsx a{
+  display: inline-block;
+  width: .8rem /* 80/100 */;  
+  height: .24rem /* 24/100 */;
+  line-height: .24rem;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  border-radius: .04rem /* 4/100 */;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: .08rem /* 5/100 */;
+}
+.jsx span i{
+  font-size: .3rem /* 20/100 */;
+  vertical-align: middle;
+}
+/* 主体 */
+.flexbox{
+  width: 3.45rem /* 345/100 */;
+  height: .8813rem /* 88.13/100 */;
+  padding: 0 .04875rem /* 4.875/100 */;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.2rem auto 0;
+  background: #fff;
+  box-shadow: 0 0 0.1rem 0 rgba(0,0,0,0.1);
+  border-radius: .04rem /* 4/100 */;
+  font-size: 0;
+}
+.flexbox a{
+  display: inline-block;
+  width: .8rem /* 80/100 */;
+  height: .78rem /* 78/100 */;
+  text-align: center;
+  font-size: .13875rem /* 13.875/100 */;
+}
+.flexbox a img{
+  width: 80px;
+  height: 50px;
+}
+/*  */
+.home{
+  font-size: 0;
+}
+h1{
+  font-size: .24rem /* 48/100 */ ;
+  margin-top: .3rem /* 60/200 */;
+  padding: 0 .15rem /* 30/200 */;
+  color: #333333;
+  font-weight: normal;
+}
+.list>li{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .10125rem /* 20.25/200 */ .15rem /* 30/200 */;
+}
+.list>li img{
+  width: 1.58695rem /* 317.39/200 */;
+  border-radius: .05rem /* 4/200 */;
+}
+.right{
+  padding: .10125rem /* 20.25/200 */ 0;
+  box-sizing: border-box;
+}
+.left{
+  width: 1.58695rem /* 317.39/200 */;
+  border-radius: .05rem /* 4/200 */;
+}
+.right{
+  width: 1.725rem /* 345/200 */;
+  height: 1.19625rem /* 239.25/200 */;
+}
+.right h2{
+  height: .44rem /* 88/200 */;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  
+  font-size: .16125rem /* 32.25/200 */;
+}
+.right p{
+  margin-top: .2rem /* 35/200 */;
+  margin-bottom: .025rem /* 5/200 */;
+}
+.right a{
+  margin-right: .15rem /* 30/200 */;
+}
+.right span{
+  margin-left: .05rem /* 10/200 */;
+}
+.right a i{
+  font-size: .12rem /* 24/200 */;
+}
+/* -------------更多 */
+.more{
+  font-size: 0;
+  text-align: center;
+  padding: .19875rem /* 39.75/200 */ .1125rem /* 22.5/200 */ .36rem /* 72/200 */;
+}
+.more a{
+  display: inline-block;
+  width: 1.75125rem /* 350.25/200 */;
+  height: .40125rem /* 80.25/200 */;
+  line-height: .40125rem /* 80.25/200 */;
+  font-size: .13875rem /* 27.75/200 */;
+  color: #666666;
+  border: 1px solid #666666;
+  border-radius: .05rem /* 10/200 */;
+}
+/* =============底部 */
+footer{
+  position: relative;
+  height: 2.46rem /* 492/200 */;
+  padding: .3rem /* 60/200 */ 0 .10125rem /* 20.25/200 */;
+  box-sizing: border-box;
+  background-image: url('https://static.zcool.cn/zcool/mobile/images/footer-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 0;
+  text-align: center;
+}
+footer img{
+  width: 1.00125rem /* 200.25/200 */;
+}
+footer .p1{
+  font-size: .18rem /* 36/200 */;
+  margin-top: .365rem /* 73/200 */;
+}
+footer .downlod{
+  display: inline-block;
+  width: 1.35rem /* 270/200 */;
+  height: .40125rem /* 80.25/200 */;
+  line-height: .40125rem /* 80.25/200 */;
+  border-radius: .53rem;
+  font-size: .16125rem /* 32.25/200 */;
+  margin-top: .15rem /* 30/200 */;
+  border: .005rem solid #282828;
+}
+footer .p2{
+  margin-top: .555rem /* 111/200 */;
+}
+.p2 span{
+  font-size: .06rem /* 20/200 */;
+  color: #282828;
+}
+
+
+/* aside */
+aside a{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: .3rem /* 30/200 */;
+  background-color: #ffd100;
+  width: 1.30125rem /* 260.25/200 */;
+  height: .45rem /* 90/200 */;
+  line-height: .45rem;
+  font-size: .16125rem /* 32.25/200 */;
+  color: #000;
+  border-radius: .25rem /* 50/200 */;
+  text-align: center;
+  border: 1px solid #ddd;
+  outline: 0 none;
+  box-sizing: border-box;
+}

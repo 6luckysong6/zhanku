@@ -17,7 +17,7 @@
       <ul class="menu">
         <li><a href="">首页</a></li>
         <li class="find">
-          <a href="">发现</a>
+          <a href="./pages/find.html">发现</a>
           <!-- 发现二级导航 -->
           <div class="nav-find">
             <ul class="discover-box-list">
@@ -44,7 +44,7 @@
           </div>
         </li>
         <li class="position">
-          <a href="">职位</a>
+          <a href="./pages/job.html">职位</a>
           <!-- 职位二级导航 -->
           <ul class="nav-position">
             <li><a href="">职位</a></li>
@@ -53,7 +53,7 @@
           </ul>
         </li>
         <li class="active">
-          <a href="">活动</a>
+          <a href="./pages/active.html">活动</a>
           <ul class="nav-active">
             <li><a href="">设计大赛</a></li>
             <li><a href="">专题策划</a></li>
@@ -63,7 +63,7 @@
           </ul>
         </li>
         <li class="material">
-          <a href="">正版素材</a>
+          <a href="./pages/material.html">正版素材</a>
           <ul class="nav-material">
             <li><a href="">图片</a></li>
             <li><a href="">视频</a></li>
@@ -73,7 +73,7 @@
           </ul>
         </li>
         <li class="course">
-          <a href="">课程</a>
+          <a href="./pages/course.html">课程</a>
           <ul class="nav-course">
             <li><a href="">免费直播月<sup></sup></a></li>
             <li><a href="">正在热销</a></li>
@@ -82,7 +82,7 @@
           </ul>
         </li>
         <li class="protection">
-          <a href="">版权保护</a>
+          <a href="./pages/protection.html">版权保护</a>
           <ul class="nav-protection">
             <li><a href="">区块链存证</a></li>
             <li><a href="">作品登记证书</a></li>
@@ -2294,6 +2294,21 @@
       <i class="iconfont icon-jiantou-copy-copy-copy"></i>
     </a>
   </aside>
+  <script>
+    function isPc() {
+        //拿到userAgent
+        let userAgentInfo = navigator.userAgent;
+        if (/iphone/i.test(userAgentInfo)){
+            return false;
+        } else if (/Android/i.test(userAgentInfo)){
+            return false;
+        }
+        return true;
+    }
+    if (!isPc()){
+        location.href = './m.zhanku/m.index.html';
+    }
+  </script>
 </body>
 
 </html>
