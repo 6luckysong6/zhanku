@@ -2816,6 +2816,21 @@
       </a>
     </aside>
   </div>
+  <script>
+    function isPc() {
+        //拿到userAgent
+        let userAgentInfo = navigator.userAgent;
+        if (/iphone/i.test(userAgentInfo)){
+            return false;
+        } else if (/Android/i.test(userAgentInfo)){
+            return false;
+        }
+        return true;
+    }
+    if (!isPc()){
+        location.href = '../m.zhanku/pages/m.find.html';
+    }
+  </script>
 </body>
 
 </html>
