@@ -2,4 +2,106 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
+}
+html{
+    font-size: 13.3333vw;
+}
+.header{
+    width: 7.5rem;
+    height: 1rem;
+    background-color: rgb(255,209,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_content{
+    width: 7.5rem;
+    height:.5rem;
+    display: flex;
+    align-items: center;
+}
+.head_content>img{
+    position: absolute;
+    width: 2rem;
+    margin-left: .3rem;
+}
+.head_right{
+    position: absolute;
+    width: 4rem;
+    height: .5rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+.download{
+    width: 1.6rem;
+    height: 0.45rem;
+    border-radius: 0.05rem;
+    font-size: .25rem;
+    color: black;
+    text-align: center;
+    line-height: 0.45rem;
+    margin-left: 1.3rem;
+    border: 1px solid black;
+}
+.icon-liebiao{
+    position: absolute;
+    font-size: .5rem;
+    right: 0.2rem;
+}
+.main{
+    width: 7.5rem;
+}
+.top{
+    width: 6.9rem;
+    height: 1.7rem;
+    margin: auto;
+    margin-top: .4rem;
+    border-radius: 0.2rem;
+    display: flex;
+    border: 1px solid black;
+}
+.top>div>div{
+    width: 1rem;
+    height: .8rem;
+    margin: auto;
+    margin-top: 0.3rem;
+}
+.top>div{
+    width: 25%;
+    height: 100%;
+    font-size: 0.32rem;
+    text-align: center;
+}
+.yuan{
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    border-radius: 50%;
+    background-color:  rgb(255,209,0);
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.top>div>div>i{
+    position: absolute;
+    font-size: .5rem;
+    margin-left: -0.3rem;
+    margin-top: .1rem;
+    z-index: 1;
+}
+.first{
+    font-size: 0.5rem;
+    margin-top: .5rem;
+    margin-left: .28rem;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content_d{
+    width: 7.5rem;
+    height: 2.5rem;
+    background-color: cadetblue;
 }
