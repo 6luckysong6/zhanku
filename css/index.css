@@ -5,6 +5,7 @@
 html,body{
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
 }
 ul li {
   list-style: none;
@@ -22,7 +23,7 @@ header {
 }
 
 nav {
-  width: 1763px;
+  width: 92%;
   height: 56px;
   margin: auto;
   display: flex;
@@ -441,7 +442,6 @@ nav img {
   height: 195px;
   transition: .2s;
   background-color: rgba(255, 255, 255, 0);
-
 }
 
 .img a:hover::before {
@@ -456,6 +456,8 @@ nav img {
 }
 
 .img img {
+  width: 260px;
+  height: 195px;
   border-radius: 4px 4px 0 0;
 }
 
@@ -569,7 +571,7 @@ nav img {
 }
 
 .info-card-l {
-  width: 150px;
+  /* width: 150px; */
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -914,7 +916,9 @@ footer{
 aside{
   position: fixed;
   bottom: 259px;
-  right: 204px;
+  /* right: 204px; */
+  z-index: 2;
+  right: 14px;
   width: 50px;
   height: 50px;
   line-height: 50px;

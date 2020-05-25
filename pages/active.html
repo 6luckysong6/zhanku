@@ -7,11 +7,11 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="//static.zcool.cn/git_z/z/site/favicon.ico?version=0417-1590022751703"
+      href="https://static.zcool.cn/git_z/z/site/favicon.ico?version=0417-1590022751703"
     />
     <link
       rel="stylesheet"
-      href="//at.alicdn.com/t/font_1831077_p638yshmvch.css"
+      href="https://at.alicdn.com/t/font_1831077_p638yshmvch.css"
     />
     <title>最新活动 - 站酷 (ZCOOL)</title>
   </head>
@@ -98,10 +98,10 @@
                 </ul>
               </li>
               <li class="menu_more">
-                <span>
-                  <i class="iconfont icon-gengduosangedian"></i>
-                  <sup class="more_back"></sup>
-                </span>
+                <a href="" class="menu_more_a">
+                  <span class="iconfont icon-gengduosangedian">
+                  <sup class="more_back"></sup></span>
+                </a>
                 <ul class="nav-more">
                   <li><a href="">设计师</a></li>
                   <li>
@@ -474,5 +474,20 @@
         </div>
       </div>
     </div>
+    <script>
+      function isPc() {
+        //拿到userAgent
+        let userAgentInfo = navigator.userAgent;
+        if (/iphone/i.test(userAgentInfo)){
+            return false;
+        } else if (/Android/i.test(userAgentInfo)){
+            return false;
+        }
+        return true;
+    }
+    if (!isPc()){
+        location.href = '../m.zhanku/pages/m.active.html';
+    }
+    </script>
   </body>
 </html>
