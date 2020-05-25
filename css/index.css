@@ -22,7 +22,7 @@ header {
 }
 
 nav {
-  width: 1763px;
+  width: 92%;
   height: 56px;
   margin: auto;
   display: flex;
@@ -441,7 +441,6 @@ nav img {
   height: 195px;
   transition: .2s;
   background-color: rgba(255, 255, 255, 0);
-
 }
 
 .img a:hover::before {
@@ -456,6 +455,8 @@ nav img {
 }
 
 .img img {
+  width: 260px;
+  height: 195px;
   border-radius: 4px 4px 0 0;
 }
 
@@ -569,7 +570,7 @@ nav img {
 }
 
 .info-card-l {
-  width: 150px;
+  /* width: 150px; */
   height: 40px;
   display: flex;
   justify-content: space-between;

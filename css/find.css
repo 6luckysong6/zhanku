@@ -341,7 +341,7 @@ nav img {
   display: block;
 }
 .all-box{
-  width: 1903px;
+  width: 100%;
   position: absolute;
   top: 72px;
   /* line-height: 44px; */
@@ -473,11 +473,8 @@ nav img {
   box-sizing: border-box;
 }
 .lll li:hover {
-  background-color: rgb(41, 31, 31);
+  background-color: #f2f2f2;
 }
-/* .jjjj{
-  float: right;
-} */
 
 
 
@@ -647,7 +644,7 @@ nav img {
 }
 
 .info-card-l {
-  width: 150px;
+  /* width: 150px; */
   height: 40px;
   display: flex;
   justify-content: space-between;
