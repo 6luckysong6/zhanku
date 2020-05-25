@@ -44,16 +44,21 @@ body {
   padding: 0 24px;
   color: #282828;
 }
+.menu_content > ul > li:hover > a {
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 227, 0);
+}
 .menu_more {
+  position: relative;
   width: 60px;
   height: 56px;
+
   text-align: center !important;
   color: #000;
 }
 
 .icon-gengduosangedian {
-  font-size: 24px !important;
-  color: #282828;
+  font-size: 24px;
 }
 .more_back {
   display: inline-block;
@@ -88,7 +93,7 @@ body {
   line-height: 56px;
 }
 .icon-sousuo:hover {
-  background-color: #282828;
+  background-color: rgb(40, 40, 40);
   color: #ffe300;
 }
 .header_right {
@@ -133,14 +138,7 @@ body {
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
 }
-/* .find{
-      position: relative;
-      overflow: hidden;
-  }
-  
-  .find:hover{
-      overflow: visible;
-  } */
+
 .find .nav-find {
   display: none;
   z-index: 2;
@@ -251,12 +249,13 @@ body {
 .nav-more {
   position: absolute;
   padding: 6px 0;
-  box-sizing: border-box;
+
   width: 152px;
   text-align: left;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
+  box-sizing: border-box;
 }
 
 .nav-position li,
@@ -325,12 +324,12 @@ body {
   font-size: 16px;
   line-height: 56px;
 }
-.top_hull_content > li >a{
+.top_hull_content > li > a {
   display: inline-block;
   padding: 0 30px;
-  color: #999999 ;
+  color: #999999;
 }
-.top_hull_content > li>a:hover {
+.top_hull_content > li > a:hover {
   color: #282828;
   border-bottom: 2px solid #444;
 }
@@ -357,7 +356,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.active_title{
+.active_title {
   position: absolute;
   width: 68px;
   height: 32px;
@@ -376,10 +375,10 @@ body {
   margin-bottom: 20px;
   margin-right: 20px;
 }
-.main_picture:hover{
+.main_picture:hover {
   opacity: 0.8;
 }
-.active_picture{
+.active_picture {
   display: inline-block;
   width: auto;
   height: auto;
@@ -542,6 +541,6 @@ body {
 .footer_wrapper > div > a:hover {
   color: #999999;
 }
-.footer_wrapper > div >span> a:hover {
+.footer_wrapper > div > span > a:hover {
   color: #999999;
 }

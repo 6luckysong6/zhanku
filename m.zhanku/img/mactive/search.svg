@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>导航_搜索</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="导航_搜索" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14-Copy-2">
+            <g id="首页-搜索-copy">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g mask="url(#mask-2)">
+                    <circle id="Oval-2" stroke="#282828" stroke-width="1.5" cx="7.88" cy="7.88" r="6.57"></circle>
+                    <path d="M12.3138309,13.3467459 L15.5900339,13.359863 C16.0007842,13.3615076 16.3328935,13.6949493 16.3328935,14.1057028 L16.3328935,14.1057028 C16.3328935,14.5143368 16.0016302,14.8456001 15.5929962,14.8456001 C15.5920088,14.8456001 15.5910213,14.8455982 15.5900339,14.8455942 L12.3138309,14.8324771 C11.9030807,14.8308326 11.5709713,14.4973909 11.5709713,14.0866373 L11.5709713,14.0866373 C11.5709713,13.6780033 11.9022346,13.34674 12.3108686,13.34674 C12.311856,13.34674 12.3128435,13.346742 12.3138309,13.3467459 Z" id="Rectangle-10" fill="#282828" fill-rule="nonzero" transform="translate(13.951932, 14.096170) rotate(-315.000000) translate(-13.951932, -14.096170) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
