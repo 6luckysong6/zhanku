@@ -2,10 +2,14 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+    outline: none;
 }
 .display_flex{
     display: flex;
     justify-content: space-between;
+}
+.display_flex_no{
+    display: flex;
 }
 .flex_wrap_wrap{
     flex-wrap: wrap;
@@ -126,6 +130,169 @@ a{
    color: rgb(40,178,139);
     font-weight: 900;
 }
+/*===========================下拉课程列表*/
+.noname{
+    /*position: relative;*/
+}
+.noname:hover .lession_list{
+    display: block;
+}
+.lession_list{
+    position: absolute;
+    width: 706px;
+    height: 344px;
+    background-color: white;
+    box-shadow: #e0e0e0 0px 0px 10px;
+    top: 72px;
+    display: none;
+}
+.padding_28{
+    padding: 28px 22px;
+}
+.peace_list{
+    width: 116px;
+    height: 344px;
+    background-color: #e6e6e6;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+.peace_list>li{
+    line-height: 50px;
+    text-align: center;
+    /*background-color: #828282;*/
+    position: relative;
+}
+
+.peace_list_hover:hover .peace_list_box{
+    display: block;
+}
+.peace_list_box{
+    position: absolute;
+    width: 590px;
+    height: 231px;
+    /*background-color: red;*/
+    left: 116px;
+    top: 0px;
+    display: none;
+}
+.peace_list_box2{
+    top: -50px;
+}
+.peace_list_box3{
+    top: -100px;
+}
+.peace_list_box4{
+    top: -150px;
+}
+.peace_list_box5{
+    top: -200px;
+}
+.peace_list_box6{
+    top: -250px;
+    flex-grow: 2;
+}
+/*.peace_list_box{*/
+/*    width: 590px;*/
+/*    height: 231px;*/
+/*    background-color: red;*/
+/*}*/
+.peace_list_box{
+    padding-left:40px;
+    box-sizing: border-box;
+}
+.peace_list_box_top{
+    /*width: 690px;*/
+}
+.peace_list_box_title{
+    width: max-content;
+}
+.peace_list_box_top_content{
+    /*width: 590px;*/
+}
+.peace_list_box_top>p{
+    line-height: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-left: rgb(40,178,139) 4px solid;
+}
+.peace_list_style{
+    /*border-left: rgb(40,178,139) 4px solid;*/
+    /*height: 20px;*/
+    margin: 17px 0;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+.peace_list_box_top_content p{
+    width: max-content;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    /*height: 20px;*/
+    /*padding: 10px 20px;*/
+    line-height: 20px;
+}
+.peace_list_hover{
+    transition: 0.2s;
+}
+.peace_list_hover:hover{
+    background-color: white;
+    padding: 5px;
+    /*border-left: rgb(40,178,139) solid 4px;*/
+    /*color: rgb(40,178,139);*/
+}
+.peace_list_hover:hover .peace_list_style{
+    border-left: rgb(40,178,139) solid 4px;
+}
+.study_list_style{
+    border: 1px #d3d3d3 solid;
+}
+
+/*=============================*/
+.living_hover{
+    position: relative;
+}
+.living_hover:hover .live_list{
+    display: block;
+}
+.live_list{
+    position: absolute;
+    width: 120px;
+    height: 61px;
+    /*background-color: red;*/
+    top: 73px;
+    left: -10px;
+    display: none;
+    padding: 12px 22px;
+    background-color: white;
+    box-sizing: border-box;
+    line-height: 37px;
+    box-shadow: rgba(0,0,0,0.3) 0px 5px 10px;
+}
+/*============================*/
+.meal_hover{
+    position: relative;
+}
+.meal_hover:hover .meal_list{
+    display: block;
+}
+.meal_list{
+    position: absolute;
+    width: 130px;
+    padding: 12px 22px;
+    box-sizing: border-box;
+    top: 70px;
+    /*background-color: red;*/
+    left: -10px;
+    display: none;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.3) 0px 5px 10px;
+
+}
+.meal_list li{
+    line-height: 30px;
+}
+
 /*===============================body盒子*/
 .body{
     width: 100%;
