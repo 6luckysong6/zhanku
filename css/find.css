@@ -315,6 +315,7 @@ nav img {
 .select-box{
   position: relative;
   font-size: 14px;
+  z-index: 3;
 }
 .select{
   width: 1380px;
@@ -341,7 +342,7 @@ nav img {
   display: block;
 }
 .all-box{
-  width: 1903px;
+  width: 100%;
   position: absolute;
   top: 72px;
   /* line-height: 44px; */
@@ -414,7 +415,7 @@ nav img {
   position: sticky;
   top: 0;
   background-color: #fff;
-  z-index: 1;
+  z-index: 2;
   margin-top: 20px;
 }
 
@@ -452,7 +453,7 @@ nav img {
 .sub-nav>li:nth-of-type(1)>ul{
   position: absolute;
   width: 115px;
-  height: 140px;
+  /* height: 140px; */
   font-size: 14px;
   text-align: center;
   z-index: 7;
@@ -473,11 +474,8 @@ nav img {
   box-sizing: border-box;
 }
 .lll li:hover {
-  background-color: rgb(41, 31, 31);
+  background-color: #f2f2f2;
 }
-/* .jjjj{
-  float: right;
-} */
 
 
 
@@ -569,6 +567,7 @@ nav img {
 
 .info i {
   margin-right: 5px;
+  color: red;
 }
 
 .info>span {
@@ -647,7 +646,7 @@ nav img {
 }
 
 .info-card-l {
-  width: 150px;
+  /* width: 150px; */
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -782,6 +781,7 @@ nav img {
 .adv-bottom a img{
   margin: auto;
   height: 115px;
+  border-radius: 4px;
 }
 /* 推荐课程 */
 .recommended{
@@ -844,6 +844,156 @@ nav img {
   background-color: rgba(255, 255, 255, .2);
 }
 
+.cuse a{
+  color: red;
+}
+/* 热点 */
+.hot-album-1{
+  width: 1380px;
+  margin: auto;
+  font-size: 0;
+  
+}
+.hot-album{
+  width: 100%;
+  height: auto;
+  background-color: rgba(244,244,244);
+}
+.hot-album>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hot-album>ul li{
+  width: 260px;
+  height: 233px;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.album-top{
+  width: 240px;
+  height: 182px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.hot-album>ul img{
+  width: 120px;
+}
+.hot-album p{
+  position: relative;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.hot-album-1 p a:hover{
+  color: red;
+}
+.hot-album-1 p i{
+  position: absolute;
+  right: 0;
+  color: red;
+}
+/*  */
+.work-box-1{
+  /* padding-top: 10px; */
+  width: 100%;
+  height: auto;
+  background-color: rgba(244,244,244);
+}
+.work-box-1 .img img{
+  width: 260px;
+}
+.work-box-1 .img{
+  position: relative;
+}
+.work-box-1 ul>li:nth-of-type(1) .img::after{
+  content: '正版图片';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  border-radius: 4px;
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 12px;
+  text-align: center;
+  padding: 0 10px;
+  color: white;
+}
+.work-box-1 ul>li:nth-of-type(2) .img::after{
+  content: '学习视频';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  border-radius: 4px;
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 12px;
+  text-align: center;
+  padding: 0 10px;
+  color: white;
+}
+.work-box-1 ul>li:nth-of-type(3) .img::after{
+  content: '设计活动';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  border-radius: 4px;
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 12px;
+  text-align: center;
+  padding: 0 10px;
+  color: white;
+}
+.work-box-1 ul>li:nth-of-type(4) .img::after{
+  content: '设计大赛';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  border-radius: 4px;
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 12px;
+  text-align: center;
+  padding: 0 10px;
+  color: white;
+}
+.work-box-1 ul>li:nth-of-type(5) .img::after{
+  content: '设计活动';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  border-radius: 4px;
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 12px;
+  text-align: center;
+  padding: 0 10px;
+  color: white;
+}
+.work-box-1 .work-list p{
+  color: #999999;
+}
+.work-box-1 .item a:hover{
+
+  color: red;
+}
 /* footer */
 footer{
   height: 229px;
@@ -993,7 +1143,8 @@ aside{
   position: fixed;
   z-index: 1;
   bottom: 259px;
-  right: 204px;
+  /* right: 204px; */
+  right: 14px;
   width: 50px;
   height: 50px;
   line-height: 50px;
