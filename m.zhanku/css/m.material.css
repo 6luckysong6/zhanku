@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 13.3333333vw;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 7.5rem;
+    height: 1rem;
+    padding: 0.3rem 0.3rem 0 0.3rem;
+    box-sizing: border-box;
+    background-color: #FFD100;
+}
+
+.logo {
+    width: 2rem;
+    height: 0.35rem;
+    background-image: url(../img/m.material/logo_03.png);
+    background-size: cover;
+}
+
+.header-r {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.1rem;
+    width: 2.4rem;
+    height: 0.48rem;
+    font-size: 0.24rem;
+    font-weight: 500;
+}
+
+.app {
+    width: 1.59rem;
+    height: 0.48rem;
+    border-radius: 0.1rem;
+    border: 0.03rem solid #282828;
+    text-align: center;
+    line-height: 0.48rem;
+}
+
+.icon {
+    width: 0.39rem;
+    height: 0.39rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.icon i {
+    font-size: 0.6rem;
+}
+
+.content {
+    position: relative;
+    width: 7.5rem;
+    height: 6.14rem;
+    padding: 0.4rem 0.3rem;
+    box-sizing: border-box;
+}
+
+.content-img img {
+    width: 6.9rem;
+    height: 3.88rem;
+}
+
+.content-c {
+    width: 100%;
+    height: 0.73rem;
+}
+
+.content-c p {
+    font-size: 0.31rem;
+    font-weight: bold;
+}
+
+.content-f {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 0.32rem;
+    margin-top: 0.2rem;
+    font-size: 0.25rem;
+    box-sizing: border-box;
+}
+
+.content-f-r {
+    display: flex;
+    justify-content: space-between;
+    width: 1.92rem;
+    height: 0.32rem;
+    color: #999999;
+}
+
+.content-f-l {
+    line-height: 0.32rem;
+    font-weight: 500;
+}
+
+.content-f-l i {
+    font-size: 0.25rem;
+}
+
+.content-ren i {
+    font-size: 0.25rem;
+}
+
+.content-tu i {
+    font-size: 0.25rem;
+}
+
+.juli {
+    position: absolute;
+    top: 3.5rem;
+    right: 0.55rem;
+    width: 2.46rem;
+    height: 0.48rem;
+    box-sizing: border-box;
+    border-radius: 0.08rem;
+    background-color: #FFD100;
+    text-align: center;
+    line-height: 0.48rem;
+    color: #333333;
+    font-size: 0.25rem;
+}
+
+.chakan {
+    width: 100%;
+    height: 1.9rem;
+    padding: 0.38rem 0.22rem 0.52rem;
+    box-sizing: border-box;
+}
+
+.more {
+    width: 3.5rem;
+    height: 0.8rem;
+    margin: auto;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.4rem;
+    border-radius: 0.22rem;
+    border: 0.03rem solid #666666;
+}
+
+.more span {
+    color: #666666;
+}
+
+.footer {
+    width: 7.5rem;
+    height: 4.92rem;
+    box-sizing: border-box;
+    padding: 0.6rem 0 0.2rem;
+    text-align: center;
+    background-color: #ffd100;
+}
+
+.footer-img {
+    display: inline-block;
+    width: 2rem;
+    height: 0.7rem;
+    text-align: center;
+}
+
+.footer-img img {
+    width: 2rem;
+    height: 0.7rem;
+}
+
+.footer-p {
+    margin-top: 0.35rem;
+    height: 0.43rem;
+    text-align: center;
+    font-size: 0.36rem;
+    color: #282828;
+}
+
+.xiazai a {
+    display: inline-block;
+    width: 2.7rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    border-radius: 0.8rem;
+    border: 0.01rem solid #000000;
+}
+
+.footer-banquan {
+    margin-top: 0.5rem;
+    height: 0.23rem;
+    font-size: 0.2rem;
+    color: #282828;
+}
