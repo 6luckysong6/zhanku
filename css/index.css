@@ -3,8 +3,6 @@
   margin: 0;
 }
 html,body{
-  width: 100%;
-  height: 100%;
   scroll-behavior: smooth;
 }
 ul li {
@@ -17,19 +15,19 @@ a {
 }
 
 header {
-  width: 100%;
   height: 56px;
   background-color: #ffe300;
 }
 
 nav {
-  width: 92%;
+  width: 1380px;
   height: 56px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
+  background-color: #ffe300;
 }
 
 nav img {
@@ -100,6 +98,7 @@ nav img {
   position: relative;
   z-index: 1;
   overflow: visible;
+  
 }
 
 .discover-box-list {
@@ -305,7 +304,7 @@ nav img {
   /* z-index: -1; */
   width: 1380px;
   height: 350px;
-  background-color: violet;
+  /* background-color: violet; */
   margin: auto;
   cursor: pointer;
 }
@@ -388,6 +387,7 @@ nav img {
   height: 56px;
   margin: auto;
   display: flex;
+  background-color: white;
   justify-content: center;
   align-items: center;
 }
@@ -416,7 +416,6 @@ nav img {
 
 .work-list {
   width: 1380px;
-  height: 2850px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
@@ -662,14 +661,19 @@ nav img {
   color: #bbbbbb;
 }
 
-
+.pageturning{
+  background-color: #f4f4f4;
+}
 /* ============================= */
 .laypage {
+  width: 1380px;
   height: 40px;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  padding-bottom: 30px;
+  margin: auto;
 }
 
 .laypage a {
@@ -694,14 +698,14 @@ nav img {
 /* --------------- */
 .adv-bottom{
   position: relative;
-  padding-top: 30px;
   height: 115px;
   background-color: #f4f4f4;
 }
 .adv-bottom a{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  display: block;
+  width: 1380px;
+  margin: auto;
+  background-color: #f4f4f4;
 }
 .adv-bottom a img{
   margin: auto;
@@ -720,6 +724,7 @@ nav img {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  background-color: #f4f4f4;
 }
 .cuse span:nth-of-type(2){
   color: #ff4a3b;
@@ -733,6 +738,7 @@ nav img {
   align-items: center;
   padding-bottom: 29px;
   box-sizing: border-box;
+  background-color: #f4f4f4;
 }
 .gogoup li{
   width: 260px;
@@ -770,7 +776,8 @@ nav img {
 
 /* footer */
 footer{
-  height: 229px;
+  /* width: 1380px; */
+  /* height: 229px; */
   margin: auto;
   background-color: #282828;
 }
@@ -783,6 +790,7 @@ footer{
   align-items: center;
   border-bottom: 1px solid #333;
   box-sizing: border-box;
+  background-color: #282828;
 }
 .footer-top-left{
   display: flex;
@@ -879,7 +887,9 @@ footer{
   display: flex;
   font-size: 12px;
   color: #666666;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  padding-top: 20px;
+  background-color: #282828;
 }
 .footer-middle a{
   color: #666666;
@@ -890,11 +900,13 @@ footer{
 }
 .footer-bottom{
   padding-top: 10px;
+  padding-bottom: 38px;
   box-sizing: border-box;
   font-size: 12px;
   width: 1380px;
   margin: auto;
   display: flex;
+  background-color: #282828;
   justify-content: space-between;
 }
 .footer-bottom a:hover{
