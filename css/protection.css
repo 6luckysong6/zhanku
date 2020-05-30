@@ -22,7 +22,7 @@ html {
 }
 
 .banner {
-    width: 100%-100px;
+    width: 1414px;
     height: 50px;
     justify-content: space-between;
     padding-left: 45px;
@@ -336,7 +336,7 @@ html {
 }
 
 .footer {
-    width: 100%;
+    width: 1520px;
     height: 153px;
     background-color: rgb(46, 49, 57);
 }
@@ -456,4 +456,8 @@ html {
     transform: rotate(45deg);
     z-index: -1;
     border: 1px solid rgb(238, 238, 238);
+}
+
+body {
+    overflow-x: hidden;
 }
