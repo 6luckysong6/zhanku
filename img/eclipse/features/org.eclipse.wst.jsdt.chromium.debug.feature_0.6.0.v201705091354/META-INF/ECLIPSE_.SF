@@ -1,0 +1,26 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: JcJ8BaxTGQIn/id5vCtL6d7lI3sTw
+ uDn5apdkZze5vA=
+SHA-256-Digest-Manifest: eyqz9FZXl6/XzFBfBBc+3R6BiwkZ7BgzfAU3D2DhgLk=
+Created-By: 1.8.0_131 (Oracle Corporation)
+
+Name: META-INF/maven/org.eclipse.webtools.jsdt.features/org.eclipse.ws
+ t.jsdt.chromium.debug.feature/pom.xml
+SHA-256-Digest: AArVFLyD8nyJl+MCEeHFktRuJYdAmU1fjPYEBqhxAHc=
+
+Name: epl-v10.html
+SHA-256-Digest: 8GSw4aNBim+4CHFc1TYSYQy3Ei4T2BVP57HxmJUvTBs=
+
+Name: feature.xml
+SHA-256-Digest: gL35oEbdTwD7HPbGWkvS8ACrGQQBNfIrhSOgbQ5IPp4=
+
+Name: feature.properties
+SHA-256-Digest: IjpvISd6GbDJoqjZ69b25PqzJ4V15JlyGKnsaJshQC8=
+
+Name: license.html
+SHA-256-Digest: gb5ZzrbOyFArzDLUIG4huZV/GHHBYb0EtixuMKXnhqs=
+
+Name: META-INF/maven/org.eclipse.webtools.jsdt.features/org.eclipse.ws
+ t.jsdt.chromium.debug.feature/pom.properties
+SHA-256-Digest: H+zhnEkPSP5Annf/IGJXOhmy+2HHaSbRtopf0+V6QRY=
+
