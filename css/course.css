@@ -2,10 +2,14 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+    outline: none;
 }
 .display_flex{
     display: flex;
     justify-content: space-between;
+}
+.display_flex_no{
+    display: flex;
 }
 .flex_wrap_wrap{
     flex-wrap: wrap;
@@ -108,7 +112,7 @@ a{
     justify-content: space-evenly;
 }
 .box_shadown_10{
-    box-shadow: 0px 5px 10px #e6e6e6;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
 .margin_left_50{
     margin-left: 120px;
@@ -126,6 +130,169 @@ a{
    color: rgb(40,178,139);
     font-weight: 900;
 }
+/*===========================下拉课程列表*/
+.noname{
+    /*position: relative;*/
+}
+.noname:hover .lession_list{
+    display: block;
+}
+.lession_list{
+    position: absolute;
+    width: 706px;
+    height: 344px;
+    background-color: white;
+    box-shadow: #e0e0e0 0px 0px 10px;
+    top: 72px;
+    display: none;
+}
+.padding_28{
+    padding: 28px 22px;
+}
+.peace_list{
+    width: 116px;
+    height: 344px;
+    background-color: #e6e6e6;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+.peace_list>li{
+    line-height: 50px;
+    text-align: center;
+    /*background-color: #828282;*/
+    position: relative;
+}
+
+.peace_list_hover:hover .peace_list_box{
+    display: block;
+}
+.peace_list_box{
+    position: absolute;
+    width: 590px;
+    height: 231px;
+    /*background-color: red;*/
+    left: 116px;
+    top: 0px;
+    display: none;
+}
+.peace_list_box2{
+    top: -50px;
+}
+.peace_list_box3{
+    top: -100px;
+}
+.peace_list_box4{
+    top: -150px;
+}
+.peace_list_box5{
+    top: -200px;
+}
+.peace_list_box6{
+    top: -250px;
+    flex-grow: 2;
+}
+/*.peace_list_box{*/
+/*    width: 590px;*/
+/*    height: 231px;*/
+/*    background-color: red;*/
+/*}*/
+.peace_list_box{
+    padding-left:40px;
+    box-sizing: border-box;
+}
+.peace_list_box_top{
+    /*width: 690px;*/
+}
+.peace_list_box_title{
+    width: max-content;
+}
+.peace_list_box_top_content{
+    /*width: 590px;*/
+}
+.peace_list_box_top>p{
+    line-height: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-left: rgb(40,178,139) 4px solid;
+}
+.peace_list_style{
+    /*border-left: rgb(40,178,139) 4px solid;*/
+    /*height: 20px;*/
+    margin: 17px 0;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+.peace_list_box_top_content p{
+    width: max-content;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    /*height: 20px;*/
+    /*padding: 10px 20px;*/
+    line-height: 20px;
+}
+.peace_list_hover{
+    transition: 0.2s;
+}
+.peace_list_hover:hover{
+    background-color: white;
+    padding: 5px;
+    /*border-left: rgb(40,178,139) solid 4px;*/
+    /*color: rgb(40,178,139);*/
+}
+.peace_list_hover:hover .peace_list_style{
+    border-left: rgb(40,178,139) solid 4px;
+}
+.study_list_style{
+    border: 1px #d3d3d3 solid;
+}
+
+/*=============================*/
+.living_hover{
+    position: relative;
+}
+.living_hover:hover .live_list{
+    display: block;
+}
+.live_list{
+    position: absolute;
+    width: 120px;
+    height: 61px;
+    /*background-color: red;*/
+    top: 73px;
+    left: -10px;
+    display: none;
+    padding: 12px 22px;
+    background-color: white;
+    box-sizing: border-box;
+    line-height: 37px;
+    box-shadow: rgba(0,0,0,0.3) 0px 5px 10px;
+}
+/*============================*/
+.meal_hover{
+    position: relative;
+}
+.meal_hover:hover .meal_list{
+    display: block;
+}
+.meal_list{
+    position: absolute;
+    width: 130px;
+    padding: 12px 22px;
+    box-sizing: border-box;
+    top: 70px;
+    /*background-color: red;*/
+    left: -10px;
+    display: none;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.3) 0px 5px 10px;
+
+}
+.meal_list li{
+    line-height: 30px;
+}
+
 /*===============================body盒子*/
 .body{
     width: 100%;
@@ -296,7 +463,7 @@ a{
     padding: 10px;
 }
 .margin_bottom_40{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .font_color_red{
     color: red;
@@ -306,7 +473,7 @@ a{
 }
 .hover_lession:hover{
     transform: translateY(-5px);
-    box-shadow: #d6d6d6 0px 5px 5px ;
+    box-shadow: rgba(0,0,0,0.05) 0px 5px 5px ;
 }
 /*==========================查看更多*/
 .width_214{
@@ -317,6 +484,9 @@ a{
 }
 .line_height_56{
     line-height: 56px;
+}
+.more{
+    background-color: white;
 }
 .more:hover{
     border: 1px rgb(40,178,139) solid;
@@ -501,6 +671,7 @@ button{
 .font_size_28{
     font-size: 28px;
 }
+
 .teacher_title{
     margin: 15px 0;
     padding: 0 8px;
@@ -612,4 +783,10 @@ button{
 }
 .zindex_10{
     z-index: 10;
+}
+.border_bottom1{
+    border-bottom: 1px #c6c6c6 solid;
+}
+.padding_bottom_5{
+    padding-bottom: 5px;
 }
